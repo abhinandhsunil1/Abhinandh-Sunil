@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Abhinandh</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Abhinandh</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero-gallery">
+  <h1>Hello, I'm <span>Abhinandh</span></h1>
+  <p>Photographer & Creative Developer | Capturing Moments + Code</p>
+  <img src="./Photos/IMG_8650.JPG" alt="Abhinandh" class="hero-profile" />
+</section>
+
+<section id="about" class="info-section">
+  <h2>About Me</h2>
+  <p>I’m passionate about photography and web design. This gallery is a collection of my visual stories and creative experiments. Scroll down to explore!</p>
+</section>
+
+<section class="info-cards">
+  <div class="card">
+    <h3><a href="photography.html">Photography</a></h3>
+    <p>Nature, Street, Portraits</p>
+  </div>
+  <div class="card">
+    <h3><a href="tools.html">Me and Tools</a></h3>
+    <p>Lightroom, Photoshop, VS Code</p>
+  </div>
+  <div class="card">
+    <h3><a href="skill.html">Skills</a></h3>
+    <p>Editing, Web Design, Color Grading</p>
+  </div>
+</section>
+
+<section id="gallery" class="preview-link">
+  <a href="#gallery" class="explore-btn">Explore Full Gallery (Click Me) ↓</a>
+</section>
+
+<section class="gallery">
+  <h2>My Photo Gallery</h2>
+  <div class="photo-grid">
+    <img src="./Photos/IMG_8650.JPG" alt="Photo 14">
+    <img src="./Photos/IMG_4629.JPG" alt="Photo 1">
+    <img src="./Photos/IMG_6005.jpg" alt="Photo 2">
+    <img src="./Photos/IMG_6006.jpg" alt="Photo 3">
+    <img src="./Photos/IMG_6016.jpg" alt="Photo 4">
+    <img src="./Photos/IMG_6235.jpg" alt="Photo 5">
+    <img src="./Photos/IMG_6548.JPG" alt="Photo 6">
+    <img src="./Photos/IMG_6817.JPG" alt="Photo 7">
+    <img src="./Photos/IMG_6843.JPG" alt="Photo 8">
+    <img src="./Photos/IMG_6878.jpg" alt="Photo 9">
+    <img src="./Photos/IMG_6897.JPG" alt="Photo 10">
+    <img src="./Photos/IMG_7050.jpg" alt="Photo 11">
+    <img src="./Photos/IMG_5862.jpg" alt="Photo 12">
+    <img src="./Photos/IMG_7264.JPG" alt="Photo 13">
+    <img src="./Photos/IMG_8876.JPG" alt="Photo 15">
+  </div>
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Expanded Photo">
+  </div>
+</section>
+
+<section class="info-section">
+  <h2>Want to collaborate or book a shoot?</h2>
+  <p><a href="contact.html" class="explore-btn">Contact Me →</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Abhinandh. All rights reserved.</p>
+  <p><a href="contact.html">Contact</a></p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  if (window.location.hash) {
+    history.replaceState(null, null, ' ');
+    window.scrollTo(0, 0);
+  }
+</script>
+</body>
+</html>
