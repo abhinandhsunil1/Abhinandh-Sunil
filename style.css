@@ -426,31 +426,3 @@ footer {
   color: #444;
   line-height: 1.5;
 }
-
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .info-cards {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .card {
-    max-width: 90%;
-    margin-bottom: 20px;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logo {
-    margin-bottom: 10px;
-  }
-}
